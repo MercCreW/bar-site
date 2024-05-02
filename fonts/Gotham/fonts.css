@@ -1,0 +1,22 @@
+@font-face {
+    src: url("./Stolzl_Regular.woff2") format("woff2"),
+         url("./Stolzl_Regular.eot") format("embedded-opentype"),
+         url("./Stolzl_Regular.ttf") format("truetype"),
+         url("./stolzl_regular.otf") format("opentype"),
+         url("./Stolzl_Regular.woff") format("woff");
+    font-family: "Stolzl";
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+
+  @font-face{
+     src: url("./Stolzl_Regular.woff2") format("woff2"),
+          url("./Stolzl_Regular.eot") format("embedded-opentype"),
+          url("./Stolzl_Regular.ttf") format("truetype"),
+          url("./stolzl_regular.otf") format("opentype"),
+          url("./Stolzl_Regular.woff") format("woff");
+     font-family: "Stolzl";
+     font-style: normal;
+     font-weight: 400;
+   }
