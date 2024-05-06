@@ -289,7 +289,7 @@
   align-items: center;
 }
 
-.events__title {
+.title {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 10px 0px;
@@ -329,7 +329,7 @@
   text-align: center;
 }
 
-.events__text_middle{
+.events__text_middle {
   margin: 14px 0px;
 }
 
@@ -350,7 +350,157 @@
   text-align: center;
 }
 
-.events__image{
+.events__image {
   width: 416px;
   object-fit: cover;
+}
+
+.techrider {
+}
+
+.techrider__subtitle {
+  margin-bottom: 80px;
+  font-family: GothamProBold;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+
+.techrider__content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 150px;
+  width: 1080px;
+}
+
+.list-techrider {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 526px;
+}
+
+.list-techrider__item {
+  border-radius: 5px;
+  padding: 20px 40px;
+  background: rgba(213, 98, 29, 0.1);
+}
+
+.list-techrider__item_active {
+  background: #d5621d;
+  padding-bottom: 25px;
+}
+
+.tabs {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-techrider__title {
+  font-family: GothamProBold;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+}
+
+.list-techrider__button {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+}
+
+.list-techrider__button::before {
+  position: absolute;
+  top: 3px;
+  left: 7px;
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: rotate(315deg);
+}
+
+.list-techrider__text {
+  display: none;
+}
+
+.list-techrider__text_active {
+  display: block;
+  padding: 0 0 0 15px;
+  list-style-type: disc;
+  background: #d5621d;
+  font-family: Stolzl;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: white;
+}
+
+.audiodirectors {
+  max-width: 420px;
+}
+
+.audiodirectors__title {
+  margin: 0 auto 50px;
+  font-family: GothamProBold;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+
+.audiodirectors__cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.audiodirectors__dj-image {
+  display: block;
+  width: 196px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.audiodirectors__name {
+  width: 155px;
+  height: 40px;
+  margin: 0 auto 25px;
+  text-align: center;
+  font-family: GothamProBold;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.audiodirectors__name_type_short{
+  width: 100px;
 }
