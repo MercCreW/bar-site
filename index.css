@@ -501,7 +501,128 @@
   color: white;
 }
 
-.audiodirectors__name_type_short{
+.audiodirectors__name_type_short {
   width: 100px;
   /*new commit*/
+}
+
+.audiodirectors__links {
+  display: flex;
+  justify-content: space-between;
+  width: 105px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.audiodirectors__link {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid #d5621d;
+  border-radius: 5px;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.audiodirectors__icon {
+  display: block;
+  box-sizing: border-box;
+  width: 16px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.contacts {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.contacts__title {
+  margin-bottom: 40px;
+}
+
+.contacts__subtitle {
+  font-family: GothamProBold;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  margin-bottom: 80px;
+}
+
+.contacts__wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.contacts__item {
+  box-sizing: border-box;
+  border: 2px solid #d5621d;
+  border-radius: 5px;
+  width: 416px;
+  height: 656px;
+  background: rgba(213, 98, 29, 0.1);
+  padding: 50px;
+}
+
+.contacts__head {
+  padding: 0;
+  margin: 0px 0px 20px;
+  font-family: GothamProBold;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.contacts__text {
+  padding: 0;
+  margin: 0px 0px 35px;
+  font-family: Stolzl;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.contacts__text:nth-of-type(3) {
+  padding-bottom: 44px;
+  margin: 0px 0px 45px;
+  border-bottom: 1px solid white;
+  width: 316px;
+}
+
+.contacts__map {
+  border: 2px solid #d5621d;
+  border-radius: 5px;
+  width: 856px;
+  height: 656px;
+  background-image: url("./images/map__static.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-top: 1px solid white;
+  width: 1296px;
+  opacity: 0.5;
+  padding: 30px 0px;
+}
+
+.footer__text {
+  margin: 0;
+  padding: 0;
+  font-family: Stolzl;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
 }
