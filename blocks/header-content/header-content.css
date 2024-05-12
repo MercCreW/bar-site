@@ -1,0 +1,13 @@
+@import url('./__main-image/header-content__main-image.css');
+@import url('./__controll/header-content__controll.css');
+@import url('./__controll-wrap/header-content__controll-wrap.css');
+@import url('./__control-item/header-content__control-item.css');
+@import url('./__btn/header-content__btn.css');
+@import url('./__btn/_type/header-content__btn_type_active.css');
+
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px 120px;
+}

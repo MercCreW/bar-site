@@ -1,0 +1,9 @@
+.kitchen__cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1075px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

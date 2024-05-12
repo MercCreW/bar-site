@@ -1,0 +1,4 @@
+.kitchen-card__content {
+  position: relative;
+  min-width: 320px;
+}

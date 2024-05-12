@@ -1,0 +1,6 @@
+.kitchen__wrap {
+  display: flex;
+  width: 1305px;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,11 @@
+.button_type_kitchen {
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 244px;
+  height: 38px;
+  font-family: GothamProBold;
+  font-weight: 700;
+  text-align: center;
+  color: #210e09;
+  background-color: white;
+}

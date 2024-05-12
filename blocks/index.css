@@ -1,3 +1,16 @@
+@import url('../fonts/fonts.css');
+@import url('./header/header.css');
+@import url('./logo/logo.css');
+@import url('./header-content/header-content.css');
+@import url('./menu/menu.css');
+@import url('./button/button.css');
+@import url('./button/_type/button_type_booking.css');
+@import url('./button/_type/button_type_kitchen.css');
+@import url('./card-list/card-list.css');
+@import url('./card/card.css');
+@import url('./kitchen/kitchen.css');
+
+
 .page {
   box-sizing: border-box;
   margin: 0;
@@ -5,192 +18,6 @@
   color: white;
   font-family: "Stolzl", sans-serif;
   text-rendering: optimizeLegibility;
-}
-
-.header__wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 30px;
-}
-
-.header {
-  margin: 0 auto;
-  max-width: 1305px;
-}
-
-.logo {
-  display: block;
-}
-
-.menu {
-  margin: 0;
-  padding: 0;
-  height: 21px;
-}
-
-.menu__list {
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 600px;
-}
-
-.button {
-  border: 2px solid #d5621d;
-  background-color: transparent;
-  color: white;
-  font-size: 14px;
-  line-height: 150%;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-.button-booking {
-  border-radius: 5px;
-  padding: 15px 30px;
-  width: 188px;
-  height: 51px;
-  font-weight: 400;
-}
-
-.header-content {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px 0px 120px;
-}
-
-.header-content__main-image {
-  display: block;
-  width: 856px;
-}
-
-.header-content__controll {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  background-color: rgba(213, 98, 29, 0.05);
-}
-
-.header-content__controll-wrap {
-  display: flex;
-}
-
-.header-content__control-item {
-  list-style-type: none;
-}
-
-.header-content__btn {
-  border-radius: 5px 5px 0 0;
-  border: 0px;
-  width: 208px;
-  height: 40px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 150%;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: GothamProBold;
-  color: white;
-  background: rgba(213, 98, 29, 0.05);
-}
-
-.header-content__btn_type_active {
-  background: rgba(213, 98, 29, 0.1);
-}
-
-.card-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background: rgba(213, 98, 29, 0.1);
-  border-radius: 0 0 5px 5px;
-  padding: 38px 35px;
-}
-
-.card {
-  background-color: transparent;
-  width: 160px;
-  height: 200px;
-  padding-bottom: 26px;
-}
-
-.card__image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.kitchen {
-  max-width: 1305px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.button-kitchen {
-  margin: 0 auto;
-  border-radius: 5px;
-  width: 244px;
-  height: 38px;
-  font-family: GothamProBold;
-  font-weight: 700;
-  text-align: center;
-  color: #210e09;
-  background-color: white;
-}
-
-.kitchen__title {
-  font-family: GothamProBold;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 150%;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  text-align: center;
-  color: white;
-  margin-bottom: 80px;
-}
-
-.kitchen__wrap {
-  display: flex;
-  width: 1305px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.kitchen-cards {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1075px;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.kitchen-card {
-  display: flex;
-  justify-content: space-between;
-  width: 485px;
-  margin-bottom: 55px;
-}
-
-.kitchen-card__image {
-  display: block;
-  margin-right: 25px;
-}
-
-.kitchen-card__content {
-  position: relative;
-  min-width: 320px;
 }
 
 .kitchen-card__title {

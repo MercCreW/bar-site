@@ -1,0 +1,16 @@
+@import url('./__wrap/kitchen__wrap.css');
+@import url('./__title/kitchen__title.css');
+@import url('./__cards/kitchen__cards.css');
+@import url('./__card/kitchen__card.css');
+@import url('./__image/kitchen-card__image.css');
+@import url('./__content/kitchen-card__content.css');
+
+
+
+.kitchen {
+  max-width: 1305px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

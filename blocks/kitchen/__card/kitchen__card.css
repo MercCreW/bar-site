@@ -1,0 +1,6 @@
+.kitchen__card {
+  display: flex;
+  justify-content: space-between;
+  width: 485px;
+  margin-bottom: 55px;
+}
